@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>Personal Project</title>
+   <link href="style.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+ 
+   <h3 id = "text">
+     1. Each dice roll gives limited Movements (used to move) and Actions (used to attack) <br>
+     2. Select a piece by clicking on it <br>
+   -  Deselect by clicking on it a 2nd time <br>
+   3. Move with [arrow keys] <br>
+   4. When they are in range, target an opponents piece by clicking on it <br>
+   -  Press [E] to attack <br>
+   -  Deselect by clicking away <br>
+   5. Press the colored button to [End Turn] <br>
+  
+       <p onclick = "start()">
+       [Click] to start game <br>
+       <p>
+   </h3>
+ 
+   <h4>
+   Blue Abilities <br>
+   - Strategization - each white Planner piece that is still on the board gives 1 extra Action per turn <br>
+   - Hyperdrive - when the dice roll is odd, gain 1 extra Move <br>
+   Red Abilities <br>
+   - Chain Reaction - when an attack is successful, no Actions are used<br>
+   - Scouting - gain 3 extra Moves per turn when neither side has attacked<br>
+ 
+   </h4>
+ 
+ 
+   <!--
+   <canvas id="canvas" width="800" height="575" onclick= "coords(event)">
+   -->
+   <canvas id="canvas" width="1050" height="620">
+ 
+   </canvas>
+ 
+   <script src="script.js">
+    
+   </script>
+ 
+ </body>
+</html>
