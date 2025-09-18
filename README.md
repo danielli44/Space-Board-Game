@@ -4,7 +4,7 @@
 * Local two player board game involving two fighting fleets of ships. Destroy all of the opponent ships to win.
 * Select pieces and move them using the arrow keys. Press E to attack an enemy ship.
 
-## How to Play
+## Play the Game
 * Play here:
 * https://danielli44.github.io/Space-Board-Game/
 
